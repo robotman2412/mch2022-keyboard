@@ -34,6 +34,20 @@
 #include <ili9341.h>
 #include <pca9555.h>
 
+/*
+
+Input mappings:
+
+Joystick:    Navigate keyboard / selection.
+Joy. center: Shift key.
+Accept:      Keypress.
+Back:        Backspace.
+Home/Menu:   Exit and reject input.
+Start:       Exit and accept input.
+Select:      Select keyboard (letters, numbers, symbols).
+
+*/
+
 #ifdef __cplusplus
 extern "C" {
 #endif //__cplusplus
